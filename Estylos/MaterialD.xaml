@@ -1,0 +1,26 @@
+﻿<Window x:Class="Estylos.MaterialD"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Estylos"
+        mc:Ignorable="d"
+        Title="MaterialD" Height="450" Width="800">
+    <Grid>
+        <Label Content="https://intellitect.com/getting-started-material-design-in-xaml/" HorizontalAlignment="Left" Margin="95,45,0,0" VerticalAlignment="Top" Width="620" Foreground="#FF0D2DF3" FontWeight="Bold" FontSize="14"/>
+        <TextBlock HorizontalAlignment="Left" Margin="88,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="124" Width="597" RenderTransformOrigin="0.5,0.5">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.419"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform><Run Text="Abra el Administrador de paquetes y agregue el paquete NuGet MaterialDesignThemes al proyecto WPF. Este paquete NuGet depende de otro paquete NuGet, MaterialDesignColors . Usamos este paquete más tarde cuando seleccionamos los colores del tema para la aplicación. En la actualidad, la versión actual de MaterialDesignThemes es 2.4.0."/><LineBreak/><Run/><LineBreak/><Run Text=" &lt;ResourceDictionary Source=&quot;pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml&quot; /&gt;"/></TextBlock>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="180,255,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="310,255,0,0" VerticalAlignment="Top" Width="106" Height="32" Background="#FFE8FF00" Foreground="#DD0E0D01" FontWeight="Bold" FontSize="20"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="470,255,0,0" VerticalAlignment="Top" Width="100" Source="SantaC.png"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="630,264,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
